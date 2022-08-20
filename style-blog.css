@@ -1,0 +1,84 @@
+header{
+  border: 3px solid #000000;
+}
+
+
+.menu{
+  width: 700px;
+  height: 300px;
+  margin: auto;
+  position: relative;
+}
+
+nav{
+  position: absolute;
+  right: 0;
+  top: 150px;
+  padding-right: 50px;
+}
+
+nav li{
+  display: inline;
+  padding-left: 10px;
+  position: relative;
+}
+
+nav a{
+  font-size: 20px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  text-decoration: none
+}
+
+nav a:hover{
+  color: blue;
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+#logo{
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 50px;
+}
+
+.conteudo {
+  width: 800px;
+  margin: auto;
+  text-align: center;
+  padding: 150px 100px;
+}
+
+.conteudo li {
+  display: inline-block;
+  text-align: center;
+  height: 30%;
+  margin: 20px;
+  box-sizing: border-box;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+.conteudo li:hover {
+  border: 5px solid blue;
+  border-radius: 5px;
+
+}
+
+.conteudo h2 {
+  font-size: 30px;
+  color: black;
+
+}
+.conteudo a {
+  text-decoration: none;
+}
+
+
+
+.logodoblog {
+  width: 200px;
+  height: 200px;
+}

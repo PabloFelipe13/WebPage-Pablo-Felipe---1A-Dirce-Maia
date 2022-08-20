@@ -1,0 +1,98 @@
+
+
+header{
+  border: 3px solid #000000;
+}
+
+
+.menu{
+  width: 700px;
+  height: 300px;
+  margin: auto;
+  position: relative;
+}
+
+nav{
+  position: absolute;
+  right: 0;
+  top: 150px;
+  padding-right: 50px;
+}
+
+nav li{
+  display: inline;
+  padding-left: 10px;
+  position: relative;
+}
+
+nav a{
+  font-size: 20px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  text-decoration: none
+}
+
+nav a:hover{
+  color: blue;
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+#logo{
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 50px;
+}
+
+
+.titulo {
+  width: 700px;
+  margin: auto;
+  font-size: 60px;
+  padding: 20px 0;
+
+}
+
+.subtitulo {
+  width: 700px;
+  margin: auto;
+  font-size: 30px;
+  padding: 20px 0;
+}
+
+.principal {
+  width: 700px;
+  margin: auto;
+  padding: 40px 0;
+}
+
+.resultado {
+  padding: 30px 0;
+  margin-bottom: 70px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.resuseta {
+  width: 200px;
+  position: relative;
+  left: 390px;
+  padding: 20px 0;
+
+}
+
+h4 {
+  position: relative;
+  left: 405px;
+}
+
+.botao {
+  font-size: 40px;
+  text-decoration: none;
+  color: black;
+  padding: 3px;
+  border: 3px solid black;
+
+}

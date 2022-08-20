@@ -1,0 +1,81 @@
+header{
+  border: 3px solid #000000;
+}
+
+
+.menu{
+  width: 700px;
+  height: 300px;
+  margin: auto;
+  position: relative;
+}
+
+nav{
+  position: absolute;
+  right: 0;
+  top: 150px;
+  padding-right: 50px;
+}
+
+nav li{
+  display: inline;
+  padding-left: 10px;
+  position: relative;
+}
+
+nav a{
+  font-size: 20px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  text-decoration: none
+}
+
+nav a:hover{
+  color: blue;
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+#logo{
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 50px;
+}
+
+.conteudodapagina{
+  width: 750px;
+  height: 600px;
+  position: relative;
+  margin: auto;
+  padding: 50px 0;
+}
+
+h1{
+  font-size: 50px;
+  text-align: center;
+}
+
+
+#banner{
+  width: 750px;
+  height: 375px;
+  position: absolute;
+  padding-top: 50px;
+}
+
+footer {
+  background: grey;
+  text-align: center;
+}
+
+.logorodape {
+    width: 60px;
+    height: 60px;
+    padding: 10px  0;
+}
+
+footer p {
+  padding: 10px 0;
+}
